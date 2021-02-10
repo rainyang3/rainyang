@@ -10,8 +10,8 @@
 
 body{
     background-image: url(res/cover\ bg\ low\ sat.jpg);
-    background-size: cover auto;
-    background: no-repeat center center cover;
+    background-size: contain 100vw 100vh;
+    /* background: no-repeat center center cover; */
     /* margin: 10px 10px;
     position: relative; */
     /* width: calc(100vw-0.1vw) ;
@@ -130,4 +130,26 @@ body{
 
    .choices:nth-child(2){
        margin-top: 10px;
+   }
+
+   #lightlarge{
+       position: fixed;
+       overflow: hidden;
+       top: 53vh;
+       right: 10vw;
+       filter: brightness(1.5);
+       filter: blur(50px);
+   }
+
+   #menubutton{
+       position: absolute;
+       top: 25px;
+       margin-left: 95vw;
+       width: 30px;
+       height: 30px;
+       background: white;
+       border-radius: 50%;
+       /* filter: brightness(2.0); */
+       /* filter: drop-shadow(0 0 1px white); */
+       z-index: 10;
    }
