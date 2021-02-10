@@ -10,9 +10,9 @@ html,body
 }
 
 body{
-    background-image: url(res/cover\ bg\ low\ sat.jpg);
-    background-size: cover 120% 120%;
-    position: absolute;
+    background: url(res/cover\ bg\ low\ sat.jpg) no-repeat center fixed;
+    background-size: cover;
+    /* position: absolute; */
     /* background: no-repeat center center cover; */
     /* margin: 10px 10px;
     position: relative; */
