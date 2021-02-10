@@ -142,9 +142,11 @@ body{
    }
 
    #menubutton{
-       position: absolute;
+       padding: 5px;
+       position: fixed;
        top: 25px;
-       margin-left: 95vw;
+       margin-left: 95%;
+       margin-right: 10px;
        width: 30px;
        height: 30px;
        background: white;
