@@ -9,7 +9,7 @@ html,body
     overflow-x: hidden; 
 }
 
-body{
+html{
     background: url(res/cover\ bg\ low\ sat.jpg) no-repeat center fixed;
     background-size: cover;
     
