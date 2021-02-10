@@ -146,7 +146,7 @@ html{
        position: fixed;
        overflow: hidden;
        top: 53vh;
-       right: 20vw;
+       margin-right: 20vw;
        filter: brightness(1.5);
        filter: blur(50px);
    }
