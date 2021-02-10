@@ -76,9 +76,9 @@ html{
 
     #light {
         width: 300px;
-        position: absolute;
+        position: fixed;
         margin-left:clamp(100px, 65%,65%);
-        margin-top: 29vh;
+        margin-top: 4vh;
         /* margin-left: min(400px) max(60vw); */
         /* filter: blur(10px); */
         filter: brightness(1.1);
@@ -145,7 +145,7 @@ html{
    #lightlarge{
        position: fixed;
        overflow: hidden;
-       top: 53vh;
+       top: 55vh;
        margin-right: 20vw;
        filter: brightness(1.5);
        filter: blur(50px);
