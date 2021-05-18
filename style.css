@@ -158,23 +158,51 @@ html,body
         
     }
 
-    #title{
-        font-size: 2.5em;
+    #text{
+        
         margin-left:clamp(10px, 36%,50%);
         /* color: white; */
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: .25px white;
+       
         margin-top: 30px;
+        font-family: 'Titillium Web', sans-serif;
+        
+        
+
+    }
+
+    #scrollbox{
+        width: 50%;
+        height: 100px;
+        margin-left: 30;
+        -ms-overflow-style: -ms-autohiding-scrollbar;  
+        
+        overflow-y: scroll;
+        border: solid .2px rgba(255, 255, 255, .5);
+        /* z-index: 10; */
+        position: relative;
+    }
+
+    p {
         
         font-family: 'Titillium Web', sans-serif;
         font-weight: 0, 200;
         font-style: normal;
-        /* outline: px white; */
-        /* fill: none; */
+        color: white;
+        padding: 5px;
+        margin-left: 10px;
 
     }
+    
+    h1{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: .25px white;
 
- 
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 0, 200;
+        font-style: normal;
+        font-size: 2.5em;
+    }
+    
     #circle {
     width: 25px;
     height: 25px;
@@ -262,3 +290,12 @@ html,body
         transform-origin: center;
     }
 }
+
+
+/* scrollbar */
+
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    /* display: none; */
