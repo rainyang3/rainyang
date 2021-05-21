@@ -282,10 +282,10 @@ html,body
         -moz-animation: glow 3s ease-in-out infinite alternate;
         animation: glow 3s ease-in-out infinite alternate;
 
-        transition-property: transform; 
+        /* transition-property: transform; 
         Transition-duration:0.5s; 
         Transition-timing-function:ease-out; 
-        Transition-delay:0.1s
+        Transition-delay:0.1s */
         
     }
 
